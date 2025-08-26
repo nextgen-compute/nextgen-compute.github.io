@@ -30,9 +30,28 @@ h1 {
     transition: box-shadow 0.2s, transform 0.2s;
 }
 
+/* Special styling for Professor cards */
+.professorCard {
+    background: #fff;
+    border-radius: 18px;
+    box-shadow: 0 2px 16px rgba(0, 0, 0, 0.07);
+    padding: 2rem 2rem 1.5rem 2rem;
+    max-width: 750px;
+    min-width: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: box-shadow 0.2s, transform 0.2s;
+}
+
 .personCard:hover {
     box-shadow: 0 8px 32px rgba(25, 118, 210, 0.18);
     transform: translateY(-8px) scale(1.04);
+}
+
+.professorCard:hover {
+    box-shadow: 0 8px 32px rgba(25, 118, 210, 0.18);
+    transform: translateY(-8px) scale(1.02);
 }
 
 .photo {
@@ -61,15 +80,18 @@ h1 {
 
 .about {
     font-size: 1rem;
-    text-align: center;
+    text-align: left;
     margin-bottom: 0.7rem;
     color: #333;
+    line-height: 1.6;
+    white-space: pre-line;
 }
 
 .section {
     font-size: 0.98rem;
     margin-bottom: 0.4rem;
     text-align: left;
+    line-height: 1.4;
 }
 
 .connections {
@@ -100,50 +122,78 @@ h1 {
 
 .pastMembersSection h2 {
     text-align: center;
-    margin-bottom: 1.5rem;
-    color: #333;
+    margin-bottom: 2rem;
+    color: #1976d2;
     font-size: 1.8rem;
+}
+
+.pastMembersCategory {
+    margin-bottom: 2.5rem;
+}
+
+.pastMembersCategory h3 {
+    text-align: left;
+    margin-bottom: 1.5rem;
+    color: #1976d2;
+    font-size: 1.4rem;
+    font-weight: 600;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e3f2fd;
 }
 
 .pastMembersList {
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    max-width: 600px;
-    margin: 0 auto;
+    max-width: 700px;
+    margin: 0;
 }
 
 .pastMemberItem {
     display: flex;
     align-items: center;
-    justify-content: space-between;
     background: #f8f9fa;
-    padding: 1rem 1.5rem;
+    padding: 1.2rem 1.5rem;
     border-radius: 12px;
     border-left: 4px solid #1976d2;
     transition: all 0.2s ease;
+    gap: 1rem;
 }
 
 .pastMemberItem:hover {
     background: #e3f2fd;
     transform: translateX(5px);
+    box-shadow: 0 4px 12px rgba(25, 118, 210, 0.15);
+}
+
+.pastMemberPhoto {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 2px solid #e0e0e0;
+    background: #f5f5f5;
+    flex-shrink: 0;
 }
 
 .pastMemberName {
     font-weight: 600;
     font-size: 1.1rem;
     color: #333;
+    flex: 1;
 }
 
 .pastMemberPeriod {
     color: #666;
     font-size: 0.95rem;
     font-style: italic;
+    margin-left: 0.5rem;
 }
 
 .pastMemberLinks {
     display: flex;
     gap: 0.8rem;
+    margin-left: auto;
 }
 
 .pastMemberLinks .icon {
@@ -163,14 +213,36 @@ h1 {
         padding: 1.2rem 0.7rem 1.2rem 0.7rem;
     }
 
+    .professorCard {
+        max-width: 95vw;
+        min-width: 0;
+        padding: 1.5rem 1rem 1.5rem 1rem;
+    }
+
     .pastMemberItem {
         flex-direction: column;
-        align-items: flex-start;
-        gap: 0.5rem;
-        padding: 1rem;
+        align-items: center;
+        gap: 0.8rem;
+        padding: 1.2rem;
+        text-align: center;
+    }
+
+    .pastMemberPhoto {
+        width: 80px;
+        height: 80px;
+    }
+
+    .pastMemberName {
+        text-align: center;
+    }
+
+    .pastMemberPeriod {
+        margin-left: 0;
+        text-align: center;
     }
 
     .pastMemberLinks {
-        align-self: flex-end;
+        margin-left: 0;
+        justify-content: center;
     }
 }
