@@ -8,10 +8,8 @@ const people = [
         photo: '/images/people/Professor.png',
         name: 'Muhammed Rashed',
         title: 'Assistant Professor',
-        about: `Dr. Rashed is an assistant professor in the CSE department at the University of Texas at Arlington. 
-        His research focuses on electronic design automation for next-generation computing systems, artificial intelligence acceleration, and sustainable computing. 
-        His work has been published in top-tier venues such as DAC, MICRO, ICCAD, DATE, ASP-DAC, TCAD and TODAES. 
-        He has received numerous accolades, including the IEEE/ACM William J. McCalla Best Paper Award nomination at ICCAD 2022, the Publicity Paper regonition at DAC 2022, the Best Research Video Award at DAC 2021, the David T. and Jane M. Donaldson Memorial Graduate Scholarship in 2022, and the Dr. Alireza Seyedi Doctoral Research Innovation Scholarship in 2024.`,
+        about: `Dr. Rashed is an assistant professor in the CSE department at the University of Texas at Arlington. His research focuses on electronic design automation for next-generation computing systems, artificial intelligence acceleration, and sustainable computing. His work has been published in top-tier venues such as DAC, MICRO, ICCAD, DATE, ASP-DAC, TCAD and TODAES. 
+        Dr. Rashed has received numerous accolades, including the UTA CARES Grant in 2025, the IEEE/ACM William J. McCalla Best Paper Award nomination at ICCAD 2022, the Publicity Paper regonition at DAC 2022, the Best Research Video Award at DAC 2021, the David T. and Jane M. Donaldson Memorial Graduate Scholarship in 2022, and the Dr. Alireza Seyedi Doctoral Research Innovation Scholarship in 2024.`,
         research: 'EDA for emerging computing paradigms, Artificial Intelligence Acceleration, and Sustainable Computing.',
         education: 'Ph.D. in Computer Engineering, UCF',
         email: 'muhammad.rashed@uta.edu',
@@ -44,8 +42,8 @@ const people = [
         photo: '/images/people/Nazmul.png',
         name: 'Nazmul Hasan',
         title: 'Ph.D. Student',
-        about: 'Nazmul loves to work on Resilient and Robust AI systems. Nazmul also loves to explore related fields that accelerates AI using Novel Architectural Designs',
-        research: 'Sustainable Computing, AI Accelerators',
+        about: 'Nazmul is a Ph.D. student working on EDA for quantum computing systems.',
+        research: 'Electronic Design Automation, Quantum Computing',
         education: 'B.S. in Computer Science and Engineering, BUET',
         email: 'nxh6632@mavs.uta.edu',
         github: 'https://github.com/Nazmul1850/',
@@ -55,8 +53,8 @@ const people = [
         photo: '/images/people/Mahir.jpeg',
         name: 'Mahir Shahriar Dhrubo',
         title: 'Ph.D. Student',
-        about: 'Dhrubo is a Ph.D. student working on efficient design methodologies for in-memory computing systems with non-volatile memories.',
-        research: ' In-memory Computing, AI Accelerators, Computer Systems',
+        about: 'Dhrubo is a Ph.D. student working on 3D AI accelerators.',
+        research: ' 3D Computing, AI Accelerators',
         education: 'B.S. in Computer Science and Engineering, BUET',
         email: 'mxd7038@mavs.uta.edu',
         github: 'https://github.com/MahirDhrubo',
