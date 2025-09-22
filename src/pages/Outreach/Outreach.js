@@ -9,15 +9,25 @@ const Outreach = () => {
 
     // Only one outreach activity for now
     const outreachActivities = [
+        
         {
             id: 1,
+            title: 'CSE PhD Welcoming Event',
+            description: 'The annual PhD Student Welcoming Event celebrating our students’ new beginnings and continued progress.',
+            image: '/images/outreach/phd_welcome.jpg',
+            date: 'Fall 2025',
+        },
+        
+        
+        {
+            id: 2,
             title: 'Engineering Teen Academy Summer Camp',
             description: 'Educating pre-college students on next-generation AI-accelerator systems',
             image: '/images/outreach/Outreach1.jpg',
             date: 'June 2025',
         },
         {
-            id: 2,
+            id: 3,
             title: 'UR2PHD program',
             description: 'Two undergraduate researchers and one graduate student from the NextGen Computing Lab participated in the UR2PHD program in Summer 25.',
             image: '/images/outreach/Outreach2.png',
