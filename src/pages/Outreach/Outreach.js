@@ -33,6 +33,14 @@ const Outreach = () => {
             image: '/images/outreach/Outreach2.png',
             date: 'Summer 2025',
         },
+
+          {
+            id: 3,
+            title: 'Research Experiences for Undergraduates (REU)',
+            description: 'One undergraduate researcher participated in the REU program from Fall 2024 to Spring 2025 to explore the capabilities of LLMs in developing EDA solutions.',
+            image: '/images/outreach/REU.png',
+            date: 'Fall 2024- Spring 2025',
+        },
     ];
 
     return (
