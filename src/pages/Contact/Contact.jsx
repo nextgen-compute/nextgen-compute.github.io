@@ -4,7 +4,7 @@ import { MdEmail } from 'react-icons/md';
 import { FaGithub, FaLinkedin } from 'react-icons/fa';
 
 const professor = {
-    name: 'Muhammed Rashed',
+    name: 'Muhammad Rashed',
     title: 'Assistant Professor',
     email: 'muhammad.rashed@uta.edu',
     github: 'https://mrhrashed.github.io',
