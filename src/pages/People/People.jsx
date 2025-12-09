@@ -92,6 +92,17 @@ const people = [
         email: 'sanviporwal8@gmail.com',
         github: '',
         linkedin: ''
+    },
+    {
+        photo: '/images/people/ira.jpeg',
+        name: 'Ira Sirohi',
+        title: 'High School Research Volunteer',
+        about: 'Ira is a junior at The Hockaday School and serves as a research volunteer in the application of emerging computing techniques. She is passionate about advancing equitable, data-informed healthcare.',
+        research: 'Application of PIM',
+        education: 'The Hockaday School',
+        email: 'irasirohi@gmail.com',
+        github: '',
+        linkedin: ''
     }
 
 ];
