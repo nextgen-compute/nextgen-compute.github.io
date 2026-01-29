@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './News.module.css';
 
 const news = [
+    { title: "January 2026", description: "Sanvi received a National Honorable Mention for the Aspirations in Computing High School Award from the National Center for Women & Information Technology (NCWIT). Congratulations, Sanvi!" },
     { title: "February 2025", description: "One paper got accepted at MDTS'25." },
     { title: "January 2025", description: "One paper got accepted in ACM TODAES." },
     { title: "June 2024", description: "One paper got accepted at ICCAD'24." },
