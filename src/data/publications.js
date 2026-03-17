@@ -21,25 +21,25 @@
 
 const publications = [
    {
-    "actualTitle": "A 65-nm RRAM-Based Digital In-Memory Computing Chip for Streaming-based Processing: Fabrication and Experimental Demonstration",
-    "citationDetails": "J Modasiya, V Kamineni, M Dhrubo, M Liehr, K Beckmann, M Rashed, R Ewetz, and N Cady, \"On the Design and Fabrication of PATH-based In-Memory Computing Multipliers,\" in 35th IEEE Microelectronics Design and Test Symposium (MDTS), 2026",
+    "actualTitle": "MDTS'26: A 65-nm RRAM-Based Digital In-Memory Computing Chip for Streaming-based Processing: Fabrication and Experimental Demonstration",
+    "citationDetails": "J Modasiya, V Kamineni, M Dhrubo, M Liehr, K Beckmann, M Rashed, R Ewetz, and N Cady, \"A 65-nm RRAM-Based Digital In-Memory Computing Chip for Streaming-based Processing: Fabrication and Experimental Demonstration,\" in 35th IEEE Microelectronics Design and Test Symposium (MDTS), 2026",
     "year": 2026,
     "link": null
   }, 
   {
-    "actualTitle": "On the Design and Fabrication of PATH-based In-Memory Computing Multipliers",
+    "actualTitle": "DCAS'26: Vulnerability Analysis of Timing Side-Channels in Multi-Tenant ReRAM Crossbars",
     "citationDetails": "M Sifat, H Chugh, N Hasan, and M Rashed, \" Vulnerability Analysis of Timing Side-Channels in Multi-Tenant ReRAM Crossbars,\" in 19th IEEE Dallas Circuits and Systems Conference (DCAS), 2026",
     "year": 2026,
     "link": null
   },
   {
-    "actualTitle": "On the Design and Fabrication of PATH-based In-Memory Computing Multipliers",
+    "actualTitle": "MDTS'25: On the Design and Fabrication of PATH-based In-Memory Computing Multipliers",
     "citationDetails": "J Modasiya, V Kamineni, M Rashed, M. Liehr, SK Jha, R Ewetz, and N Cady, \"On the Design and Fabrication of PATH-based In-Memory Computing Multipliers,\" in 34th IEEE Microelectronics Design and Test Symposium (MDTS), 2025",
     "year": 2025,
     "link": "https://doi.org/10.1109/mdts64924.2025.11177125"
   },
   {
-    "actualTitle": "LOGIC: Logic Synthesis for Digital In-Memory Computing",
+    "actualTitle": "TODAES'25: LOGIC: Logic Synthesis for Digital In-Memory Computing",
     "citationDetails": "M Rashed, S. Thijssen, SK Jha, and R Ewetz, \"LOGIC: Logic Synthesis for Digital In-Memory Computing,\" in ACM Transactions on Design Automation of Electronic Systems (TODAES), 2025",
     "year": 2025,
     "link": "https://dl.acm.org/doi/10.1145/3711848"
