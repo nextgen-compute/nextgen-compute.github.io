@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './News.module.css';
 
 const news = [
+    { title: "April 2026", description: "Congratulations to Sifat on winning the Hesed Endowed Scholarship Fund Award!" },
     { title: "March 2026", description: "Papers got accepted at MDTS'26 and DCAS'26" },
     { title: "January 2026", description: "Congratulations to Sanvi on receiving a National Honorable Mention for the NCWIT Aspirations in Computing High School Award!" },
     { title: "February 2025", description: "One paper got accepted at MDTS'25." },
