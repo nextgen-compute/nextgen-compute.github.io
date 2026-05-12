@@ -10,8 +10,16 @@ const Outreach = () => {
     // Only one outreach activity for now
     const outreachActivities = [
         
-        {
+       {
             id: 1,
+            title: 'College of Engineering Academic Excellence Ceremony',
+            description: 'Sifat wins the Hesed Endowed Scholarship.',
+            image: '/images/outreach/Sifat-Hesed.jpeg',
+            date: 'Spring 2026',
+        },
+        
+        {
+            id: 2,
             title: 'CSE PhD Welcoming Event',
             description: 'The annual PhD Student Welcoming Event celebrating our students’ new beginnings and continued progress.',
             image: '/images/outreach/phd_welcome.jpg',
