@@ -9,8 +9,17 @@ const Outreach = () => {
 
     // Only one outreach activity for now
     const outreachActivities = [
-        
-       {
+       
+
+         {
+            id: 1,
+            title: ' 2026 National AiC High School Award',
+            description: 'Sanvi is one of the 300 high school students from the United States to be recognized.',
+            image: '/images/outreach/NCWIT.png',
+            date: 'Spring 2026',
+        },
+            
+        {
             id: 1,
             title: 'College of Engineering Academic Excellence Ceremony',
             description: 'Sifat wins the Hesed Endowed Scholarship.',
