@@ -64,7 +64,7 @@ const Outreach = () => {
         <div className={styles.container}>
             <h1 className={styles.title}>Outreach & Activities</h1>
             <p className={styles.subtitle}>
-                Our commitment to community engagement and knowledge sharing through various outreach programs and activities.
+                
             </p>
             <section className={styles.gallery}>
                 {outreachActivities.map((activity) => (
