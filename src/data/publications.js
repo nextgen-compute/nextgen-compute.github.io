@@ -21,6 +21,12 @@
 
 const publications = [
    {
+    "actualTitle": "LaMDaMS: Locality-aware Mapping and Dependency-aware Measurement Scheduling for Modular qLDPC Architecture",
+    "citationDetails": "N Hasan, and  M Rashed, \"LaMDaMS: Locality-aware Mapping and Dependency-aware Measurement Scheduling for Modular qLDPC Architecture,\" in 45th IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2026",
+    "year": 2026,
+    "link": null
+  }, 
+   {
     "actualTitle": "A 65-nm RRAM-Based Digital In-Memory Computing Chip for Streaming-based Processing: Fabrication and Experimental Demonstration",
     "citationDetails": "J Modasiya, V Kamineni, M Dhrubo, M Liehr, K Beckmann, M Rashed, R Ewetz, and N Cady, \"A 65-nm RRAM-Based Digital In-Memory Computing Chip for Streaming-based Processing: Fabrication and Experimental Demonstration,\" in 35th IEEE Microelectronics Design and Test Symposium (MDTS), 2026",
     "year": 2026,
