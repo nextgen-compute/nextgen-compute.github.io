@@ -61,26 +61,26 @@ const people = [
         linkedin: 'https://www.linkedin.com/in/mahir-dhrubo-112a32266'
     },
     {
-        photo: '/images/people/Vinod.jpg',
-        name: 'Vinod Kumar Puttamadegowda',
-        title: 'Research Assistant',
-        about: 'Vinod is a research assistant working on building and maintaining the NextGen Computing Lab website and assisting with in-memory computing research projects.',
-        research: 'Software Engineering, Gen AI, In-Memory Computing',
-        education: 'M.S. in Computer Science, UT Arlington',
-        email: 'vxp8556@mavs.uta.edu',
-        github: 'https://vinodpgowda.github.io/',
-        linkedin: 'https://www.linkedin.com/in/vinodpgowda/'
+        photo: '/images/people/Adib.png',
+        name: 'Adib Bin Kadir',
+        title: 'REU Undergraduate Researcher',
+        about: 'Adib is an undergraduate student working on building a 3D In-Memory Computing simulator. He is the President of SCAI(Students in Computing & AI), Director of ACM Educate at UTA.',
+        research: 'Artificial Intelligence, Hardware Acceleration, Robotics, Embodied AI',
+        education: 'B.S. in Computer Science, UT Arlington',
+        email: 'axk0978@mavs.uta.edu',
+        github: '',
+        linkedin: ''
     },
     {
-        photo: '/images/people/Simran.jpeg',
-        name: 'Simranjeet Kaur Sandhu',
-        title: 'Research Assistant',
-        about: 'Simranjeet is a research volunteer working on in-memory computing and simulation frameworks.',
-        research: 'In-memory computing and simulation frameworks.',
-        education: 'M.S. in Computer Science, UT Arlington',
-        email: 'sxs9074@mavs.uta.edu',
-        github: 'https://github.com/simranjeet1999',
-        linkedin: 'https://www.linkedin.com/in/simransandhu19/'
+        photo: '/images/people/Thongum.jpeg',
+        name: 'Thongum  Athoiba',
+        title: 'UR2PHD Undergraduate Researcher',
+        about: 'Thongum is an undergraduate student working on building a 3D In-Memory Computing simulator.',
+        research: ' Hardware Acceleration, Compilers, Robotics, Chip design.',
+        education: 'B.S. in Computer Science, UT Arlington',
+        email: 'txa5985@mavs.uta.edu',
+        github: '',
+        linkedin: ''
     },
     {
         photo: '/images/people/sanvi.jpeg',
@@ -109,7 +109,21 @@ const people = [
 
 // Past members data organized by categories
 const pastMembers = {
-    "Master's Research Volunteers": [
+    "Master's Researchers": [
+         {
+        name: 'Vinod Kumar Puttamadegowda',
+        timePeriod: 'Fall 2024 - Fall 2025',
+        photo: '/images/people/Vinod.jpg',
+        github: 'https://vinodpgowda.github.io/',
+        linkedin: 'https://www.linkedin.com/in/vinodpgowda/'
+    },
+    {
+        name: 'Simranjeet Kaur Sandhu',
+        timePeriod: 'Fall 2025 - Summer 2026',
+        photo: '/images/people/Simran.jpeg',
+        github: 'https://github.com/simranjeet1999',
+        linkedin: 'https://www.linkedin.com/in/simransandhu19/'
+    },
         {
             name: 'Rajat Kumar Kulkarni',
             timePeriod: 'Fall 2024 - Summer 2025',
