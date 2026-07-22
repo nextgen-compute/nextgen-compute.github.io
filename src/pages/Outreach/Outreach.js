@@ -11,7 +11,14 @@ const Outreach = () => {
     const outreachActivities = [
        
 
-         {
+        {
+            id: 1,
+            title: 'Engineering Teen Academy Summer Camp 2026',
+            description: 'Educating pre-college students on next-generation AI-accelerator systems',
+            image: '/images/outreach/summer_camp26.heic',
+            date: 'June 2026',
+        },
+        {
             id: 1,
             title: ' 2026 National AiC High School Award',
             description: 'Sanvi is one of the 300 high school students from the United States to be recognized.',
@@ -38,7 +45,7 @@ const Outreach = () => {
         
         {
             id: 2,
-            title: 'Engineering Teen Academy Summer Camp',
+            title: 'Engineering Teen Academy Summer Camp 2025',
             description: 'Educating pre-college students on next-generation AI-accelerator systems',
             image: '/images/outreach/Outreach1.jpg',
             date: 'June 2025',
