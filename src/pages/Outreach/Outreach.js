@@ -15,7 +15,7 @@ const Outreach = () => {
             id: 1,
             title: 'Engineering Teen Academy Summer Camp 2026',
             description: 'Educating pre-college students on next-generation AI-accelerator systems',
-            image: '/images/outreach/summer_camp26.heic',
+            image: '/images/outreach/summer_camp26.jpg',
             date: 'June 2026',
         },
         {
