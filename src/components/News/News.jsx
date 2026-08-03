@@ -21,10 +21,7 @@ const news = [
     { title: "July 2021", description: "One paper got accepted at ICCAD'21." }
 ];
 
-   <!-- { title: "August 2023", description: "One paper got accepted at ICCD'23." }, 
-      { title: "March 2026", description: "Papers got accepted at MDTS'26 and DCAS'26." }, 
-   { title: "February 2025", description: "One paper got accepted at MDTS'25." }, 
-       -->
+
 
 const News = () => {
     const [visibleCount, setVisibleCount] = useState(10);
