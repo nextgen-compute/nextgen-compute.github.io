@@ -2,15 +2,12 @@ import React, { useState } from 'react';
 import styles from './News.module.css';
 
 const news = [
-    { title: "July 2026", description: "One paper got accepted at ICCAD'26. Congratulations, Nazmul!" },
-    { title: "March 2026", description: "Papers got accepted at MDTS'26 and DCAS'26." },
-    { title: "February 2025", description: "One paper got accepted at MDTS'25." },
+    { title: "July 2026", description: "One paper got accepted at ICCAD'26. Congratulations, Nazmul!" },   
     { title: "January 2025", description: "One paper got accepted in ACM TODAES." },
     { title: "June 2024", description: "One paper got accepted at ICCAD'24." },
     { title: "February 2024", description: "Two papers got accepted at DAC'24." },
     { title: "November 2023", description: "One paper got accepted in IEEE TCAD." },
     { title: "September 2023", description: "Two papers got accepted at ASP-DAC'24." },
-    { title: "August 2023", description: "One paper got accepted at ICCD'23." },
     { title: "July 2023", description: "Three papers got accepted at ICCAD'23." },
     { title: "March 2023", description: "One paper got accepted in IEEE TCAD." },
     { title: "February 2023", description: "One paper got accepted at DAC'23." },
@@ -23,6 +20,11 @@ const news = [
     { title: "July 2021", description: "One paper got accepted at MICRO'21." },
     { title: "July 2021", description: "One paper got accepted at ICCAD'21." }
 ];
+
+   <!-- { title: "August 2023", description: "One paper got accepted at ICCD'23." }, 
+      { title: "March 2026", description: "Papers got accepted at MDTS'26 and DCAS'26." }, 
+   { title: "February 2025", description: "One paper got accepted at MDTS'25." }, 
+       -->
 
 const News = () => {
     const [visibleCount, setVisibleCount] = useState(10);
