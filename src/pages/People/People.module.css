@@ -113,6 +113,12 @@ h1 {
     transform: scale(1.25);
 }
 
+.icon:focus-visible {
+    outline: 2px solid #1976d2;
+    outline-offset: 4px;
+    border-radius: 4px;
+}
+
 /* Past Members Section Styles */
 .pastMembersSection {
     margin-top: 3rem;
