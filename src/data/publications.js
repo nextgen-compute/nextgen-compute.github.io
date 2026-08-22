@@ -20,6 +20,15 @@
  */
 
 const publications = [
+
+   {
+   "specialMention": "Book"
+    "actualTitle": "Computer Organization and Assembly Language Programming",
+    "citationDetails": "C Wang, and M Rashed, \"Computer Organization and Assembly Language Programming,\" Mavs Open Press Open Educational Resources, 2026",
+    "year": 2026,
+    "link": "https://mavmatrix.uta.edu/oer_mavsopenpress2/3/",
+    
+  },
    {
     "actualTitle": "LaMDaMS: Locality-aware Mapping and Dependency-aware Measurement Scheduling for Modular qLDPC Architecture",
     "citationDetails": "N Hasan, and  M Rashed, \"LaMDaMS: Locality-aware Mapping and Dependency-aware Measurement Scheduling for Modular qLDPC Architecture,\" in 45th IEEE/ACM International Conference on Computer-Aided Design (ICCAD), 2026",
