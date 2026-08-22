@@ -22,11 +22,12 @@
 const publications = [
 
    {
-   "specialMention": "Book",
+   
     "actualTitle": "Computer Organization and Assembly Language Programming",
     "citationDetails": "C Wang, and M Rashed, \"Computer Organization and Assembly Language Programming,\" Mavs Open Press Open Educational Resources, 2026",
     "year": 2026,
-    "link": "https://mavmatrix.uta.edu/oer_mavsopenpress2/3/"
+    "link": "https://mavmatrix.uta.edu/oer_mavsopenpress2/3/",
+    "specialMention": "Book"
     
   },
    {
