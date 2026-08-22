@@ -53,17 +53,32 @@ const Carousel = ({ images }) => {
             <IconButton
                 className="nav-button left"
                 onClick={goToPrevious}
+                aria-label="Previous slide"
             >
                 <ChevronLeft />
             </IconButton>
 
             <Box className="slides-container manual">
                 {getVisibleImages().map((slide, idx) => (
-                    <Box key={slide.originalIndex} className="slide" onClick={() => handleCardClick(slide)}>
+                    <Box 
+                        key={slide.originalIndex} 
+                        className="slide" 
+                        onClick={() => handleCardClick(slide)}
+                        role="button"
+                        tabIndex={0}
+                        onKeyDown={(e) => {
+                            if (e.key === 'Enter' || e.key === ' ') {
+                                e.preventDefault();
+                                handleCardClick(slide);
+                            }
+                        }}
+                    >
                         <Box className="slide-image-wrapper">
                             <Box
                                 className="slide-image"
                                 sx={{ backgroundImage: `url(${slide.url})` }}
+                                role="img"
+                                aria-label={slide.title}
                             />
                         </Box>
                     </Box>
@@ -73,6 +88,7 @@ const Carousel = ({ images }) => {
             <IconButton
                 className="nav-button right"
                 onClick={goToNext}
+                aria-label="Next slide"
             >
                 <ChevronRight />
             </IconButton>
@@ -80,8 +96,18 @@ const Carousel = ({ images }) => {
             {/* Modal (reused from Projects) */}
             {isModalOpen && selectedProject && (
                 <div className={styles.modalOverlay} onClick={closeModal}>
-                    <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
-                        <button className={styles.closeButton} onClick={closeModal}>
+                    <div 
+                        className={styles.modal} 
+                        onClick={(e) => e.stopPropagation()}
+                        role="dialog"
+                        aria-modal="true"
+                        aria-label="Project details"
+                    >
+                        <button 
+                            className={styles.closeButton} 
+                            onClick={closeModal}
+                            aria-label="Close modal"
+                        >
                             ×
                         </button>
                         <div className={styles.modalContent}>
