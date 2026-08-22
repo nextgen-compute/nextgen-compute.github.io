@@ -30,6 +30,14 @@ const Projects = () => {
                         key={index}
                         className={styles.card}
                         onClick={() => openModal(project)}
+                        role="button"
+                        tabIndex={0}
+                        onKeyDown={(e) => {
+                            if (e.key === 'Enter' || e.key === ' ') {
+                                e.preventDefault();
+                                openModal(project);
+                            }
+                        }}
                     >
                         <div className={styles.cardImage}>
                             <img
@@ -54,8 +62,18 @@ const Projects = () => {
             {/* Modal */}
             {isModalOpen && selectedProject && (
                 <div className={styles.modalOverlay} onClick={closeModal}>
-                    <div className={styles.modal} onClick={(e) => e.stopPropagation()}>
-                        <button className={styles.closeButton} onClick={closeModal}>
+                    <div 
+                        className={styles.modal} 
+                        onClick={(e) => e.stopPropagation()}
+                        role="dialog"
+                        aria-modal="true"
+                        aria-label="Project details"
+                    >
+                        <button 
+                            className={styles.closeButton} 
+                            onClick={closeModal}
+                            aria-label="Close project details"
+                        >
                             ×
                         </button>
 
