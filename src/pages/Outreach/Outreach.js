@@ -82,7 +82,7 @@ const Outreach = () => {
                             className={styles.cardImage}
                         />
                         <div className={styles.cardContent}>
-                            <div className={styles.cardTitle}>{activity.title}</div>
+                            <h2 className={styles.cardTitle}>{activity.title}</h2>
                             <div className={styles.cardDate}>{activity.date}</div>
                             <div className={styles.cardDesc}>{activity.description}</div>
                         </div>
