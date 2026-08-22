@@ -61,3 +61,8 @@
 .showMoreBtn:hover {
     background-color: #1565c0;
 }
+
+.showMoreBtn:focus-visible {
+    outline: 3px solid #1a237e;
+    outline-offset: 2px;
+}
