@@ -26,9 +26,9 @@ const Contact = () => {
                     <p className={styles.profName}>{professor.name}</p>
                     <p className={styles.profTitle}>{professor.title}</p>
                     <div className={styles.profConnections}>
-                        <a href={`mailto:${professor.email}`} className={styles.icon} title="Email"><MdEmail /></a>
-                        <a href={professor.github} target="_blank" rel="noopener noreferrer" className={styles.icon} title="GitHub"><FaGithub /></a>
-                        <a href={professor.linkedin} target="_blank" rel="noopener noreferrer" className={styles.icon} title="LinkedIn"><FaLinkedin /></a>
+                        <a href={`mailto:${professor.email}`} className={styles.icon} title="Email" aria-label="Send an email"><MdEmail /></a>
+                        <a href={professor.github} target="_blank" rel="noopener noreferrer" className={styles.icon} title="GitHub" aria-label="Visit GitHub profile"><FaGithub /></a>
+                        <a href={professor.linkedin} target="_blank" rel="noopener noreferrer" className={styles.icon} title="LinkedIn" aria-label="Visit LinkedIn profile"><FaLinkedin /></a>
                     </div>
                 </div>
                 <div className={styles.card}>
