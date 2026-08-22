@@ -186,9 +186,9 @@ const People = () => {
                             <strong>Education:</strong> {person.education}
                         </div> */}
                         <div className={styles.connections}>
-                            <a href={`mailto:${person.email}`} className={styles.icon} title="Email"><MdEmail /></a>
-                            <a href={person.github} target="_blank" rel="noopener noreferrer" className={styles.icon} title="GitHub"><FaGithub /></a>
-                            <a href={person.linkedin} target="_blank" rel="noopener noreferrer" className={styles.icon} title="LinkedIn"><FaLinkedin /></a>
+                            <a href={`mailto:${person.email}`} className={styles.icon} title="Email" aria-label="Send an email"><MdEmail /></a>
+                            <a href={person.github} target="_blank" rel="noopener noreferrer" className={styles.icon} title="GitHub" aria-label="Visit GitHub profile"><FaGithub /></a>
+                            <a href={person.linkedin} target="_blank" rel="noopener noreferrer" className={styles.icon} title="LinkedIn" aria-label="Visit LinkedIn profile"><FaLinkedin /></a>
                         </div>
                     </article>
                 ))}
@@ -204,9 +204,9 @@ const People = () => {
                         <div className={styles.section}><strong>Research Interests:</strong> {person.research}</div>
                         <div className={styles.section}><strong>Education:</strong> {person.education}</div>
                         <div className={styles.connections}>
-                            <a href={`mailto:${person.email}`} className={styles.icon} title="Email"><MdEmail /></a>
-                            <a href={person.github} target="_blank" rel="noopener noreferrer" className={styles.icon} title="GitHub"><FaGithub /></a>
-                            <a href={person.linkedin} target="_blank" rel="noopener noreferrer" className={styles.icon} title="LinkedIn"><FaLinkedin /></a>
+                            <a href={`mailto:${person.email}`} className={styles.icon} title="Email" aria-label="Send an email"><MdEmail /></a>
+                            <a href={person.github} target="_blank" rel="noopener noreferrer" className={styles.icon} title="GitHub" aria-label="Visit GitHub profile"><FaGithub /></a>
+                            <a href={person.linkedin} target="_blank" rel="noopener noreferrer" className={styles.icon} title="LinkedIn" aria-label="Visit LinkedIn profile"><FaLinkedin /></a>
                         </div>
                     </article>
                 ))}
@@ -226,12 +226,12 @@ const People = () => {
                                     <span className={styles.pastMemberPeriod}>({member.timePeriod})</span>
                                     <div className={styles.pastMemberLinks}>
                                         {member.github && (
-                                            <a href={member.github} target="_blank" rel="noopener noreferrer" className={styles.icon} title="Link 1">
+                                            <a href={member.github} target="_blank" rel="noopener noreferrer" className={styles.icon} title="GitHub" aria-label="Visit GitHub profile">
                                                 <FaGithub />
                                             </a>
                                         )}
                                         {member.linkedin && (
-                                            <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className={styles.icon} title="Link 2">
+                                            <a href={member.linkedin} target="_blank" rel="noopener noreferrer" className={styles.icon} title="LinkedIn" aria-label="Visit LinkedIn profile">
                                                 <FaLinkedin />
                                             </a>
                                         )}
