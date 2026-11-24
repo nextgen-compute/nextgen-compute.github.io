@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import styles from './News.module.css';
 
 const news = [
+    { title: "November 2026", description: "One paper got accepted at DATE'27. Congratulations, Sifat!" },
     { title: "July 2026", description: "One paper got accepted at ICCAD'26. Congratulations, Nazmul!" },   
     { title: "January 2025", description: "One paper got accepted in ACM TODAES." },
     { title: "June 2024", description: "One paper got accepted at ICCAD'24." },
