@@ -22,6 +22,13 @@
 const publications = [
 
    {
+    "actualTitle": "Data-Aware Arithmetic Synthesis for Digital In-Memory Computing",
+    "citationDetails": "Md Sifat, SK Jha, R Ewetz, and  M Rashed, \"Data-Aware Arithmetic Synthesis for Digital In-Memory Computing,\" in 30th Design, Automation and Test in Europe Conference (DATE), 2027",
+    "year": 2027,
+    "link": null
+  }, 
+   
+   {
    
     "actualTitle": "Computer Organization and Assembly Language Programming",
     "citationDetails": "C Wang, and M Rashed, \"Computer Organization and Assembly Language Programming,\" Mavs Open Press Open Educational Resources, 2026",
